@@ -3380,10 +3380,26 @@ react-deep-force-update@^1.0.0:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/react-deep-force-update/-/react-deep-force-update-1.0.1.tgz#f911b5be1d2a6fe387507dd6e9a767aa2924b4c7"
 
-"react-native-video@file:../":
-  version "1.0.0"
+react-native-video@1.2.0:
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/react-native-video/-/react-native-video-1.2.0.tgz#76db4f859548b3722bf9cc53e52c1dcdcb4ff32b"
+  integrity sha512-UyYscw+0Lb59XML3pt8cxDBcjvd0WgrsnriUpNY+371UCJFevihRkPJIj/UkQWjPCNpjIaG3ld8wBRaHYTkRXQ==
   dependencies:
     keymirror "0.1.1"
+    react-native-windows "0.41.0-rc.0"
+
+react-native-windows@0.41.0-rc.0:
+  version "0.41.0-rc.0"
+  resolved "https://registry.yarnpkg.com/react-native-windows/-/react-native-windows-0.41.0-rc.0.tgz#d70a36f546d8d448d875a9d69bd2c42fc671065c"
+  integrity sha512-dtJRF2O0qxDuH82sZ/3BQ7fJm9FqeS1KL9yopxPZb1vwL0LJ/oj16if2HLyOEXz4l3rTSGSnSQfQ6mTBpXFgkw==
+  dependencies:
+    chalk "^1.1.3"
+    glob "^7.0.3"
+    shelljs "^0.7.0"
+    uuid "^2.0.1"
+    xml-parser "^1.2.1"
+    yeoman-environment "^1.5.3"
+    yeoman-generator "^0.21.2"
 
 react-native-windows@^0.40.0:
   version "0.40.0"
